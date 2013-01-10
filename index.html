@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Template</title>
+    <meta name="viewport" content="initial-scale=1">
+    <script src="js/install.js"></script>
+
+    <style>
+.nomozapps button {
+display: none;
+}
+
+.show {
+display: block;
+}
+
+p {
+  display: none;
+}
+
+    </style>
+
+    <script>
+    </script>
+  </head>
+
+  <body class='nomozapps'>
+
+    <button id="install-app">Install App</button>
+    <button id="update-button" disabled>check for update</button>
+    <button id="download-button" disabled>download</button>
+    <p id='reload-text'>A new version has been downloaded, it will be applied
+if you pause or restart the application. <button id='close-button'>try to close</button></p>
+    <p id='no-update-text'>No update available !</p>
+    <p id='update-available-text'>An update is available, please click on the <em>download</em> button to download it</p>
+    <p id='progress'></p>
+  </body>
+
+</html>

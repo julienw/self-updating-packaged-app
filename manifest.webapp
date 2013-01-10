@@ -1,0 +1,17 @@
+{
+  "name": "big self updating packaged app",
+  "description": "Web app template",
+  "launch_path": "index.html",
+  "package_path": "/mozilla/selfupdatingpackaged/application.zip",
+  "version": "63",
+  "developer": {
+    "name": "A Fake dev",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "permissions": [
+  ],
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/style/icons/Blank.png"
+  }
+}

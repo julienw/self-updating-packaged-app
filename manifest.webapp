@@ -5,8 +5,8 @@
   "package_path": "/mozilla/selfupdatingpackaged/application.zip",
   "version": "63",
   "developer": {
-    "name": "A Fake dev",
-    "url": "https://github.com/mozilla-b2g/gaia"
+    "name": "Julien Wajsberg",
+    "url": "https://github.com/julienw/self-updating-packaged-app"
   },
   "permissions": [
   ],
